@@ -6,7 +6,7 @@
 
 The QuadTree is generic so has a wide range of possible usage. Although, it was developed to be used as a component of the [FADE](http://aquigley.host.cs.st-andrews.ac.uk/?Research:Past_Projects:FADE) drawing algorithm for the deconstruction of a graph on a 2D plane.
 
-Example:
+**Example:**
 
 ```java
 //initialises the QuadTree with the graph bounds, and sets as root node
@@ -19,6 +19,6 @@ for(Vertex v : V)
 	 tree.put(v.getX(), v.getY(), v);
 ```
 
-##3. Authors
+##2. Authors
 
 * [Kirsty Williams](http://www.github.com/kirstywilliams "Kirsty Williams Github")
