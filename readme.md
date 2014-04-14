@@ -1,5 +1,5 @@
 #QuadTree
-###The QuadTree herein was implemented as part of a graph drawing project back in August, 2012. A description can be found on my [Blog: Quadtrees for Space Decomposition](http://www.kirstywilliams.co.uk/blog/2012/08/quadtrees-java-implementation "Blog post").
+####The QuadTree herein was implemented as part of a graph drawing project back in August, 2012. A description can be found on my [Blog: Quadtrees for Space Decomposition](http://www.kirstywilliams.co.uk/blog/2012/08/quadtrees-java-implementation "Blog post").
 
 
 ##1. Usage
@@ -12,7 +12,7 @@ Example:
 //initialises the QuadTree with the graph bounds, and sets as root node
 QuadTree tree = new Quadtree(bounds.getMinX(), bounds.getMinY(), bounds.getMaxX(), bounds.getMaxY());
 
-//assigns each vertex to the node containing it's coordinates
+//assigns each vertex to the node containing its coordinates
 //continually increasing the size of the assigned node
 //if node exceeds a size of 4, node is recursively split.
 for(Vertex v : V)
