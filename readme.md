@@ -4,7 +4,7 @@
 
 ##1. Usage
 
-The QuadTree is generic so has a wide range of possible usage. Although, it was developed to be used as a component of the FADE drawing algorithm for the deconstruction of a graph on a 2D plane.
+The QuadTree is generic so has a wide range of possible usage. Although, it was developed to be used as a component of the [FADE](http://aquigley.host.cs.st-andrews.ac.uk/?Research:Past_Projects:FADE) drawing algorithm for the deconstruction of a graph on a 2D plane.
 
 Example:
 
