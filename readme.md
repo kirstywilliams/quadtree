@@ -1,8 +1,8 @@
-#QuadTree
-####The QuadTree herein was implemented as part of a graph drawing project back in August, 2012. A description can be found on my [Blog: Quadtrees for Space Decomposition](http://www.kirstywilliams.co.uk/blog/2012/08/quadtrees-java-implementation "Blog post").
+# QuadTree
+#### The QuadTree herein was implemented as part of a graph drawing project back in August, 2012. A description can be found on my [Blog: Quadtrees for Space Decomposition](http://www.kirstywilliams.co.uk/blog/2012/08/quadtrees-java-implementation "Blog post").
 
 
-##1. Usage
+## 1. Usage
 
 The QuadTree is generic so has a wide range of possible usage. Although, it was developed to be used as a component of the [FADE](http://aquigley.host.cs.st-andrews.ac.uk/?Research:Past_Projects:FADE) drawing algorithm for the deconstruction of a graph on a 2D plane.
 
@@ -19,6 +19,6 @@ for(Vertex v : V)
 	 tree.put(v.getX(), v.getY(), v);
 ```
 
-##2. Authors
+## 2. Authors
 
 * [Kirsty Williams](http://www.github.com/kirstywilliams "Kirsty Williams Github")
